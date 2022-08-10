@@ -1,0 +1,56 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    align-items: center;
+    @include font;
+
+
+}
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    // grid-template-columns: repeat(4, minmax(100px, 200px));
+    // grid-template-rows: repeat(autofit, minmax(100px, 200px));
+    // grid-gap: 20px;
+    justify-content: center;
+    // grid-auto-flow: row;
+    // grid-template-areas: 
+    // " . input input . "
+    // "photo1 photo2 photo3 photo4"
+    // "photo5 photo6 photo7 photo8"
+    // "photo9 photo10 photo11 photo12";
+
+}
+
+input {
+   height: 30px;
+    width: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 200;
+    padding-left: 1em;
+    @include font;
+    // border-color: $main-font;
+
+}
+
+@for $i from 1 through 12 {
+
+    #photo-#{$i} {
+        // grid-area: photo#{$i};
+        width: 200px;
+        height: 200px;
+        // padding: 2px;
+        // fit-object:cover;
+    }
+}
+
+img {
+   padding-right: 1.5em;
+   padding-bottom: 2em;
+
+}

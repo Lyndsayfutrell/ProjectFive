@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/partials/_index.scss",
+		"../scss/partials/_search.scss",
+		"../scss/partials/_typography.scss",
+		"../scss/partials/_variables.scss",
+		"../scss/partials/_mixins.scss",
+		"../scss/partials/_grid.scss"
+	],
+	"sourcesContent": [
+		"// include index\n \n@import 'partials/index';",
+		"// include partials\n \n@import 'search';\n@import 'typography';\n@import 'variables';\n@import 'mixins';\n@import 'grid';",
+		"",
+		"@mixin font {\n    font-family: 'Karla', sans-serif;\n    font-weight:200;\n}",
+		"$main-font: rgb(96, 96, 96);",
+		"",
+		"\nbody {\n    display: flex;\n    flex-direction: column;\n    box-sizing:border-box;\n    align-items: center;\n    @include font;\n\n\n}\n.container {\n    \n    display: flex;\n    flex-wrap: wrap;\n    width: 100%;\n    // grid-template-columns: repeat(4, minmax(100px, 200px));\n    // grid-template-rows: repeat(autofit, minmax(100px, 200px));\n    // grid-gap: 20px;\n    justify-content: center;\n    // grid-auto-flow: row;\n    // grid-template-areas: \n    // \" . input input . \"\n    // \"photo1 photo2 photo3 photo4\"\n    // \"photo5 photo6 photo7 photo8\"\n    // \"photo9 photo10 photo11 photo12\";\n\n}\n\ninput {\n   height: 30px;\n    width: 300px;\n    margin-top: 1em;\n    margin-bottom: 1em;\n    font-weight: 200;\n    padding-left: 1em;\n    @include font;\n    // border-color: $main-font;\n\n}\n\n@for $i from 1 through 12 {\n\n    #photo-#{$i} {\n        // grid-area: photo#{$i};\n        width: 200px;\n        height: 200px;\n        // padding: 2px;\n        // fit-object:cover;\n    }\n}\n\nimg {\n   padding-right: 1.5em;\n   padding-bottom: 2em;\n\n}\n"
+	],
+	"names": [],
+	"mappings": ";AMCA,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,UAAU,EAAC,UAAU;EACrB,WAAW,EAAE,MAAM;EHJnB,WAAW,EAAE,mBAAmB;EAChC,WAAW,EAAC,GAAG;CGOlB;;;AACD,AAAA,UAAU,CAAC;EAEP,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EAIX,eAAe,EAAE,MAAM;CAQ1B;;;AAED,AAAA,KAAK,CAAC;EACH,MAAM,EAAE,IAAI;EACX,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;EHjCjB,WAAW,EAAE,mBAAmB;EAChC,WAAW,EAAC,GAAG;CGoClB;;;AAIG,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,QAAQ,CAAK;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,SAAS,CAAI;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,SAAS,CAAI;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAND,AAAA,SAAS,CAAI;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAGhB;;;AAGL,AAAA,GAAG,CAAC;EACD,aAAa,EAAE,KAAK;EACpB,cAAc,EAAE,GAAG;CAErB"
+}
