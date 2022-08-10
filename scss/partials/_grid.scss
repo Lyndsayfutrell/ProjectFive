@@ -19,12 +19,6 @@ body {
     grid-template-columns: repeat(auto-fit, 200px);
     grid-gap: 30px;
     justify-content: center;
-    // grid-auto-flow: row;
-    // grid-template-areas: 
-    // " . input input . "
-    // "photo1 photo2 photo3 photo4"
-    // "photo5 photo6 photo7 photo8"
-    // "photo9 photo10 photo11 photo12";
 
 }
 
@@ -37,7 +31,6 @@ body {
         width: 190px;
         height: 190px;
         // padding: 2px;
-        // fit-object:cover;
     }
 }
 
