@@ -8,14 +8,12 @@ body {
 
 
 }
-.container {
+.gallery {
     
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     width: 100%;
-    // grid-template-columns: repeat(4, minmax(100px, 200px));
-    // grid-template-rows: repeat(autofit, minmax(100px, 200px));
-    // grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 20px;
     justify-content: center;
     // grid-auto-flow: row;
     // grid-template-areas: 
@@ -26,31 +24,21 @@ body {
 
 }
 
-input {
-   height: 30px;
-    width: 300px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-weight: 200;
-    padding-left: 1em;
-    @include font;
-    // border-color: $main-font;
 
-}
 
 @for $i from 1 through 12 {
 
     #photo-#{$i} {
         // grid-area: photo#{$i};
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
         // padding: 2px;
         // fit-object:cover;
     }
 }
 
 img {
-   padding-right: 1.5em;
-   padding-bottom: 2em;
+//    padding-right: 1.5em;
+//    padding-bottom: 2em;
 
 }
