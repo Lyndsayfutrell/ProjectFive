@@ -1,4 +1,4 @@
-/* line 2, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+/* line 6, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
 body {
   display: flex;
   flex-direction: column;
@@ -8,16 +8,88 @@ body {
   font-weight: 200;
 }
 
-/* line 11, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-.container {
+/* line 15, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+.gallery {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, 200px);
-  grid-gap: 20px;
+  grid-gap: 30px;
   justify-content: center;
 }
 
-/* line 27, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-1 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-2 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-3 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-4 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-5 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-6 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-7 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-8 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-9 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-10 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-11 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 29, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
+#photo-12 {
+  width: 190px;
+  height: 190px;
+}
+
+/* line 43, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
 input {
   height: 40px;
   width: 50%;
@@ -29,78 +101,6 @@ input {
   font-weight: 200;
   border-color: #e0e0e0;
   border-radius: 5px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-1 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-2 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-3 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-4 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-5 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-6 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-7 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-8 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-9 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-10 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-11 {
-  width: 190px;
-  height: 190px;
-}
-
-/* line 42, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFive/scss/partials/_grid.scss */
-#photo-12 {
-  width: 190px;
-  height: 190px;
 }
 
 /*# sourceMappingURL=style.css.map */
